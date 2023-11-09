@@ -230,6 +230,7 @@ if (BMIMark > BMIJohn) {
 }
 
 ////////////////////////////////////
+
 // Type Conversion and Coercion
 
 // type conversion
@@ -244,16 +245,17 @@ console.log(String(23), 23);
 
 // type coercion
 console.log('I am ' + 23 + ' years old');
-console.log('23' - '10' - 3);
+console.log('23' - '10' - 3);//23 - 10 - 3 = 10
+console.log('23' - '10' + '3');// 23 - 10 = 13 '+' 3 -> 133
 console.log('23' / '2');
 
 let n = '1' + 1; // '11'
 n = n - 1;
 console.log(n);
-
-////////////////////////////////////
+*/
+// Aula 21
 // Truthy and Falsy Values
-
+/**/
 // 5 falsy values: 0, '', undefined, null, NaN
 console.log(Boolean(0));
 console.log(Boolean(undefined));
@@ -276,6 +278,7 @@ if (height) {
 }
 
 ////////////////////////////////////
+/*
 // Equality Operators: == vs. ===
 const age = '18';
 if (age === 18) console.log('You just became an adult :D (strict)');
@@ -321,7 +324,7 @@ if (hasDriversLicense && hasGoodVision && !isTired) {
 } else {
   console.log('Someone else should drive...');
 }
-*/
+
 
 ////////////////////////////////////
 // Coding Challenge #3
