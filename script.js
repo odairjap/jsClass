@@ -255,7 +255,7 @@ console.log(n);
 */
 // Aula 21
 // Truthy and Falsy Values
-/**/
+/*
 // 5 falsy values: 0, '', undefined, null, NaN
 console.log(Boolean(0));
 console.log(Boolean(undefined));
@@ -276,8 +276,9 @@ if (height) {
 } else {
   console.log('Height is UNDEFINED');
 }
-
-////////////////////////////////////
+*/
+// Aula 22
+//////////////////////////////////
 /*
 // Equality Operators: == vs. ===
 const age = '18';
@@ -302,7 +303,7 @@ if (favourite === 23) { // 22 === 23 -> FALSE
 if (favourite !== 23) console.log('Why not 23?');
 
 ////////////////////////////////////
-// Logical Operators
+// Aula 24 Logical Operators
 const hasDriversLicense = true; // A
 const hasGoodVision = true; // B
 
@@ -374,7 +375,7 @@ if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
 }
 
 ////////////////////////////////////
-// The switch Statement
+// Aula 26 The switch Statement
 const day = 'friday';
 
 switch (day) {
@@ -416,7 +417,7 @@ if (day === 'monday') {
 }
 
 ////////////////////////////////////
-// Statements and Expressions
+// Aula 27 Statements and Expressions
 3 + 4
 1991
 true && false && !false
